@@ -1,0 +1,14 @@
+common: &common
+  adapter: mysql2
+  username: root
+  password: root
+  database: aortanew2
+
+development:
+  <<: *common
+
+test:
+  <<: *common
+
+production:
+  <<: *common
