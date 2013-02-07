@@ -7,6 +7,7 @@ gem 'arel',      :git => 'git://github.com/rails/arel.git', :branch => '3-0-stab
 gem 'mysql2'
 gem 'execjs'
 gem 'therubyracer'
+gem 'devise'
 
 # Gems used only for assets and not required
 # in production environments by default.
