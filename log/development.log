@@ -396,3 +396,26 @@ Served asset /home.js - 304 Not Modified (4ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-07 07:16:09 +0700
 Served asset /application.js - 304 Not Modified (16ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2013-02-07 07:36:51 +0700
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (2.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (67.0ms)
+Completed 200 OK in 332ms (Views: 329.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-07 07:36:52 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-07 07:36:52 +0700
+Served asset /home.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-07 07:36:52 +0700
+Served asset /jquery.js - 304 Not Modified (18ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-07 07:36:52 +0700
+Served asset /home.js - 304 Not Modified (4ms)
